@@ -1,7 +1,7 @@
 .magnifier {
   position: absolute;
   left: 565px;
-  width: inherit;
+  width: 700px;
   height: 495px;
   background-size: 350% auto;
   cursor: none;
