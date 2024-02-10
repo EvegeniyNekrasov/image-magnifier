@@ -1,10 +1,11 @@
 .magnifier {
   position: absolute;
-  left: 540px;
-  width: 700px;
-  height: 700px;
-  border: 1px solid black;
-  background-size: 350% 350%;
+  left: 565px;
+  width: inherit;
+  height: 495px;
+  background-size: 350% auto;
   cursor: none;
-  aspect-ratio: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 3px;
 }

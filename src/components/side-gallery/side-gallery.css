@@ -1,6 +1,7 @@
 .side-gallery {
   width: 100px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 10px;
   cursor: pointer;
@@ -9,6 +10,7 @@
 
   & img {
     width: 100%;
+    border-radius: 2px;
 
     &:not(:hover) {
       filter: grayscale(100%);

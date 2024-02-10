@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useEffect, useState } from 'react'
-
 import { images } from '../../utils/images'
+
 import './magnifier.css'
 
 export default function Magnifier({ selectedImage, magnifiedPosition }) {

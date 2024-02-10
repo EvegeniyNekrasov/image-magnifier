@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
-
 import PropTypes from 'prop-types'
+
+import { useEffect, useState } from 'react'
 import { images } from '../../utils/images'
 
 import './principal-image.css'

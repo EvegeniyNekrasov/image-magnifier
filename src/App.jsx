@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import { images } from './utils/images.js'
 
 import SideGallery from './components/side-gallery/SideGallery.jsx'
@@ -15,7 +14,8 @@ export default function App() {
 
   return (
     <main>
-      <h1>Some text</h1>
+      <h1>Image Magnifier</h1>
+      <span>Hover over the image to see the enlarged image</span>
       <div className="main-content">
         <SideGallery images={images} setSelectedImage={setSelectedImage} />
         <PrincipalImage
