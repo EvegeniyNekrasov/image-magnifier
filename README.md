@@ -1,8 +1,15 @@
-# React + Vite
+# Image Magnifier
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```shell
+cd image-magnifier
+npm install
+npm run dev
+```
 
-Currently, two official plugins are available:
+This mini project was created because I became curious after seeing the Amazon website. I noticed the effect they use on the page when you hover over the image, and it displays a larger version of the same image to see the details better.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+And I thought to myself, 'will it be difficult to achieve this effect?'
+
+It turned out it wasn't a big mystery to achieve it ))).
+
+
