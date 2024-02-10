@@ -1,0 +1,10 @@
+.magnifier {
+  position: absolute;
+  left: 540px;
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+  background-size: 350% 350%;
+  cursor: none;
+  aspect-ratio: auto;
+}

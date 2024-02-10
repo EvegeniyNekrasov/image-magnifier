@@ -1,0 +1,11 @@
+.principal-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.principal-image {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}

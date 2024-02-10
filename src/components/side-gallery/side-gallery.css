@@ -1,0 +1,17 @@
+.side-gallery {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+
+  transition: filter 300ms;
+
+  & img {
+    width: 100%;
+
+    &:not(:hover) {
+      filter: grayscale(100%);
+    }
+  }
+}
